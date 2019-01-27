@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -20,13 +20,176 @@
 
 .App-link {
   color: #61dafb;
+}*/
+
+/** ItBoar CSS - to split */
+
+body {
+  background-color: rgba(244, 244, 244,1);
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  min-height: 1000px;
+}
+
+.article {
+  width: 72%;
+  min-height: 500px;
+  float: left;
+}
+
+.post{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.boarImage {
+  /*background-image: url("img/AboutImage.png");*/
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.boarName {
+  height: 60px;
+  font-family: SamsungImagination Modern;
+  font-size: 36px;
+  text-align: center;
+}
+.boarAbout{
+  min-height: 140px;
+  font-family: SamsungImagination Modern;
+  font-size: 16px;
+  padding: 0px 37px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.postHeader{
+  margin: 0;
+  min-height: 45%;
+}
+
+#headerImg {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.postTitle{
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-family: SamsungImagination Modern;
+}
+
+#titleDescription {
+  color: rgba(143, 62, 31, 1);
+  font-size: 24px;
+  margin: 30px 0px 0px 0px;
+}
+
+#titleMain {
+  margin: 0;
+  font-size: 36px;
+  margin: 15px 0px 0px 0px;
+}
+
+.postContent {
+  max-height: 30%;
+  margin: 50px 60px 0px 60px;
+  text-align: justify;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.postMore {
+  height: 10%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#moreBtn {
+  color: white;
+  width: 50%;
+  height: 47%;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 2px;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgba(255, 140, 4, 1);
+}
+
+.postFooter {
+  height: 5%;
+  width: 100%;
+  color: rgba(143, 62, 31, 1);
+  font-family: SamsungImagination Modern;
+}
+
+#footerContent {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(130, 130, 130, 1);
+}
+
+#date {
+  margin-left: 50px;
+}
+
+.about {
+  width: 28%;
+  min-height: 500px;
+  /*background-color: yellow;*/
+  float: left;
+}
+
+
+
+.boar {
+  width: 80%;
+  min-height: 520px;
+  background-color: rbga(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  float: left;
+}
+
+.footer {
+  height: 350px;
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+  float: left;
+  text-align: right;
+}
+
+#footerSpan {
+  margin: auto;
+  color: rgba(255, 255, 255, 1);
+}
+
+#footerSpan a {
+  color: rgba(143, 62, 31, 1);
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.footerContent {
+  height: 280px;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 1);
+  margin-bottom: 27px;
 }

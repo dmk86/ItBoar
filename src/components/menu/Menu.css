@@ -1,0 +1,46 @@
+.menu {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    font-family: SamsungImagination Modern;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 88%;
+    height: 100%;
+}
+
+li {
+    float: left;
+    height: 50px;
+}
+
+li a {
+    display: block;
+    height: 50px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #1111;
+}
+
+.active {
+    background-color: #1111;
+}
+
+.selected{
+    background-color: #21112;
+}
