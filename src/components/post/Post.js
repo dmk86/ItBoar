@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import './Post.css'
 
-import img from './start.jpg'
+import postImageUrl from './start.jpg'
 
 class Post extends Component{
     render() {
         return (
             <div className="post">
                 <div className="postHeader">
-                    <img id="headerImg" src={img}/>
+                    <img alt="Post image" id="headerImg" src={postImageUrl}/>
                 </div>
                 <div className="postTitle">
                     <p id="titleDescription">Początek</p>
