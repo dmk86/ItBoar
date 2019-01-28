@@ -3,6 +3,7 @@ import './App.css';
 import Menu from "./menu/Menu";
 import Logo from "./logo/Logo";
 import Main from "./main/Main";
+import Footer from "./footer/Footer";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Menu/>
         <Logo/>
         <Main/>
+        <Footer/>
       </div>
     );
   }
