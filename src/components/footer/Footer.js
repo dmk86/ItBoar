@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import './Footer.css'
 
+import Newsletter from '../newsletter/Newsletter';
+
 class Footer extends Component{
     render() {
         return (

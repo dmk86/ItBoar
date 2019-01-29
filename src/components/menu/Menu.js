@@ -2,6 +2,13 @@ import React, {Component} from 'react';
 import './Menu.css'
 
 class Menu extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            active: true
+        }
+    }
+
     render() {
         return (
             <div id="boarMenu" className="menu">

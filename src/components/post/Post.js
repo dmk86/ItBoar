@@ -21,7 +21,7 @@ class Post extends Component{
                     Etiam rutrum nisi in arcu porttitor egestas.eu augue et nisi ultricies commodo in quis felis. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Sed molestie felis vel ligula luctus venenatis. Donec finibus massa at lectus maximus pellentesque...
                 </div>
-                <div className="postMore">
+                <div onClick={this.onClickHandler()} className="postMore">
                     <button id="moreBtn">Show more</button>
                 </div>
                 <div className="postFooter">
@@ -29,6 +29,10 @@ class Post extends Component{
                 </div>
             </div>
         );
+    }
+
+    onClickHandler(){
+        alert("Otwieram strone");
     }
 }
 

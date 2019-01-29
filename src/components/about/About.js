@@ -8,7 +8,7 @@ class About extends Component {
                 <div className="aboutFrame">
                     <div className="aboutImage"></div>
                     <div className="aboutName">Dzik</div>
-                    <div className="aboutAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris purus, venenatis et mollis ac, pretium non
+                    <div className="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris purus, venenatis et mollis ac, pretium non
                         nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris purus, venenatis et mollis ac, pretium non nisi.
                     </div>
                 </div>
