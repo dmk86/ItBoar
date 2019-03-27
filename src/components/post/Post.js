@@ -21,18 +21,14 @@ class Post extends Component{
                     Etiam rutrum nisi in arcu porttitor egestas.eu augue et nisi ultricies commodo in quis felis. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Sed molestie felis vel ligula luctus venenatis. Donec finibus massa at lectus maximus pellentesque...
                 </div>
-                <div onClick={this.onClickHandler()} className="postMore">
-                    <button id="moreBtn">Show more</button>
+                <div className="postMore">
+                    <a href="" id="moreBtn">Read more ...</a>
                 </div>
                 <div className="postFooter">
                     <p id="footerContent">Dzik w IT<span id="date"></span>06.01.2019</p>
                 </div>
             </div>
         );
-    }
-
-    onClickHandler(){
-        alert("Otwieram strone");
     }
 }
 

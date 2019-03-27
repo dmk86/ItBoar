@@ -4,7 +4,6 @@ import './About.css'
 class About extends Component {
     render() {
         return (
-            <div className="about">
                 <div className="aboutFrame">
                     <div className="aboutImage"></div>
                     <div className="aboutName">Dzik</div>
@@ -12,7 +11,6 @@ class About extends Component {
                         nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris purus, venenatis et mollis ac, pretium non nisi.
                     </div>
                 </div>
-            </div>
         )
     }
 }

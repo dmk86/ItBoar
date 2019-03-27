@@ -1,5 +1,4 @@
 .post{
-    width: 80%;
     background-color: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
@@ -49,22 +48,20 @@
 .postMore {
     height: 10%;
     width: 100%;
-    margin: auto;
-    text-align: center;
+    text-align: right;
 }
 
 #moreBtn {
-    color: white;
-    width: 50%;
+    color: rgba(255, 140, 4, 1);
+    /*width: 85%;*/
     height: 47%;
     cursor: pointer;
     font-size: 16px;
-    margin: 20px 2px;
-    text-align: center;
     vertical-align: center;
     text-decoration: none;
     display: inline-block;
-    background-color: rgba(255, 140, 4, 1);
+    margin: 25px 60px 25px 0px;
+    /*background-color: rgba(255, 140, 4, 1);*/
 }
 
 .postFooter {
@@ -76,7 +73,7 @@
 
 #footerContent {
     width: 90%;
-    margin: auto;
+    margin: auto auto 10px auto;
     padding-top: 10px;
     border-top: 1px solid rgba(130, 130, 130, 1);
 }

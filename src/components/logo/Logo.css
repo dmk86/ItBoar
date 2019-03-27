@@ -11,3 +11,29 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.logoMiddle {
+    height: 300px;
+    min-width: 100%;
+}
+
+.logoMiddleImg {
+    top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.logoSmall {
+    height: 200px;
+    min-width: 100%;
+}
+
+.logoSmallImg {
+    top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}

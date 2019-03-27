@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Menu/>
         <Logo/>
-        <Main/>
+        <Main articleList={[]}/>
         <Footer/>
       </div>
     );
