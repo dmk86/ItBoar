@@ -9,16 +9,16 @@ class Footer extends Component{
             <div className="footer">
                 <Hidden only={['xs','sm']}>
                     <div container direction="row" className="footerContent">
-                        <Grid className="left"></Grid>
-                        <Grid className="center"></Grid>
-                        <Grid className="right"></Grid>
+                        <Grid className="left">Newsletter</Grid>
+                        <Grid className="center">Social Media</Grid>
+                        <Grid className="right">??</Grid>
                     </div>
                 </Hidden>
                 <Hidden only={['md', 'lg', 'xl']}>
                     <div container direction="column" className="footerContent">
-                        <Grid className="top"></Grid>
-                        <Grid className="middle"></Grid>
-                        <Grid className="bottom"></Grid>
+                        <Grid className="top">Newsletter</Grid>
+                        <Grid className="middle">Social Media</Grid>
+                        <Grid className="bottom">??</Grid>
                     </div>
                 </Hidden>
                 <span id="footerSpan">Designed by <a href="https://4coders.pl" target="_blank">4Coders</a></span>

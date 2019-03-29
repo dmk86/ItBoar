@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import Menu from "./menu/Menu";
-import Logo from "./logo/Logo";
-import Main from "./main/Main";
-import Footer from "./footer/Footer";
+
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import Home from '../components/home/Home'
+import Contact from '../components/contact/Contact'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Menu/>
-        <Logo/>
-        <Main articleList={[]}/>
-        <Footer/>
-      </div>
+      <Router>
+          <div className="container">
+              <Route exact path="/" component={Home} />
+              <Route exact path="/contact" component={Contact} />
+          </div>
+      </Router>
     );
   }
 }
