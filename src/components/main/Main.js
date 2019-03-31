@@ -5,7 +5,7 @@ import Hidden from '@material-ui/core/Hidden';
 import withWidth from '@material-ui/core/withWidth';
 
 import Article from '../article/Article'
-import About from '../about/About'
+import ShortAbout from '../shortAbout/ShortAbout'
 
 class Main extends Component{
     render(){
@@ -17,7 +17,7 @@ class Main extends Component{
                             <Article/>
                         </Grid>
                         <Grid item xs={4}>
-                            <About/>
+                            <ShortAbout/>
                         </Grid>
                     </Grid>
                 </Hidden >
@@ -27,7 +27,7 @@ class Main extends Component{
                             <Article/>
                         </Grid>
                         <Grid item xs={10}>
-                            <About/>
+                            <ShortAbout/>
                         </Grid>
                     </Grid>
                 </Hidden>

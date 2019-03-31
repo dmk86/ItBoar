@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './Article.css'
 
-import Post from '../post/Post'
+import Blog from '../blog/Blog'
 
 class Article extends Component{
     render() {
         return (
-                <Post/>
+                <Blog/>
         )
     }
 }

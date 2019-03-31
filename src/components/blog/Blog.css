@@ -5,7 +5,6 @@
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     margin: auto;
     margin-bottom: 60px;
-    width: 80%;
 }
 
 .blogHeader{
@@ -52,7 +51,7 @@
     text-align: right;
 }
 
-#backBtn {
+#moreBtn {
     color: rgba(255, 140, 4, 1);
     /*width: 85%;*/
     height: 47%;

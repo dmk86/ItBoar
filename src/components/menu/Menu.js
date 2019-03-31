@@ -7,6 +7,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'react-router-dom'
 
 
 class Menu extends Component {
@@ -23,10 +24,10 @@ class Menu extends Component {
                 <Hidden only={['xs','sm']}>
                     <div id="boarMenu" className="menu">
                         <ul>
-                            <li><a href="#">Main</a></li>
-                            <li><a href="#" className="active">Blog</a></li>
-                            <li><a href="#">Programuj z Dzikiem</a></li>
-                            <li><a href="#">Kontakt</a></li>
+                            <li><Link to ="/">Main</Link></li>
+                            <li><Link to ="/blog" className="active">Blog</Link></li>
+                            <li><Link to ="/proggramWithBoar">Programuj z Dzikiem</Link></li>
+                            <li><Link to ="/contact">Kontakt</Link></li>
                         </ul>
                     </div>
                 </Hidden>
