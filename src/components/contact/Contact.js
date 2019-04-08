@@ -3,6 +3,7 @@ import './Contact.css'
 import Grid from '@material-ui/core/Grid'
 import Hidden from "@material-ui/core/Hidden/Hidden";
 import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 class Contact extends Component{
     state = {
@@ -14,10 +15,11 @@ class Contact extends Component{
 
     render() {
         return (
-                <div className="contact">
+                <div className="contact" >
                     <Hidden only={['xs','sm']}>
-                        <Grid container direction="row" justify="center" alignItems="flex-start" item xs={12} spacing={32} >
+                        <Grid container direction="row" justify="center" alignItems="flexcenter" item xs={12} spacing={32} >
                             <Grid item xs={32}>
+                                If you would like to contact with us, please fill the form and send us an email.
                                 <form noValidate autoComplete="off" justify="center" alignItems="center" >
                                     <TextField
                                         id="standard-name"
@@ -56,6 +58,10 @@ class Contact extends Component{
                                     rows={10}
                                     fullWidth={ true}
                                     />
+                                    <br /><br />
+                                    <Button variant="outlined" color="primary" className="button">
+                                        Send
+                                    </Button>
                                 </form>
                             </Grid>
                         </Grid>

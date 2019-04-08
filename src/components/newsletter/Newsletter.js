@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import './Newsletter.css'
 
-// TODO - make newsletter
+import Grid from '@material-ui/core/Grid'
+import TextField from '@material-ui/core/TextField';
+import Button from "@material-ui/core/Button/Button";
 
 class Newsletter extends Component{
     constructor(props){
@@ -16,10 +18,27 @@ class Newsletter extends Component{
 
     render() {
         return (
-            <form>
-                <label>Email: </label><input type="text" name="newsletterEmail" value={this.state.value} onChange={this.onchange} ></input>
-                <button id="send" onClick={this.addToNewsletter()}>Send</button>
-            </form>
+            <div>
+                <Grid container direction="row" justify="flex-start" alignItems="center" item xs={12} spacing={32} >
+                    {/*If you would like to get latest information from blog, please subscribe.*/}
+                    <form noValidate autoComplete="off" justify="center" alignItems="center" className="form">
+                        <TextField id="standard-name"
+                                   label="Email"
+                                   className="textField"
+                                   value={this.state.value}
+                                   onChange={this.onchange}
+                                   margin="normal"
+                                   required
+                        />
+
+                        <br /><br />
+                        <Button variant="outlined" color="primary" className="button">
+                            Send
+                        </Button>
+                    </form>
+                </Grid>
+            </div>
+
         )
     };
 
