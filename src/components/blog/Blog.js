@@ -37,8 +37,8 @@ class Blog extends Component {
                         <img alt="Post image" id="headerImg" src={this.state.post[0].image}/>
                     </div>
                     <div className="blogTitle">
-                        <p id="titleDescription">{this.state.post[0].titleShortDesc}</p>
-                        <p id="titleMain">{this.state.post[0].titleMain}</p>
+                        <span className="titleDescription">{this.state.post[0].titleShortDesc}</span><br />
+                        <span className="titleMain">{this.state.post[0].titleMain}</span>
                     </div>
                     <div className="blogContent">{this.state.post[0].content}
                     </div>
@@ -46,7 +46,8 @@ class Blog extends Component {
                         <Link to="/post/1" id="moreBtn">{this.state.post[0].more}</Link>
                     </div>
                     <div className="blogFooter">
-                        <p id="blogContent">{this.state.post[0].author}<span id="date"></span>{this.state.post[0].date}</p>
+                        <span className="blogFooterContent">{this.state.post[0].author}</span>
+                        <span className="date">{this.state.post[0].date}</span>
                     </div>
                 </div>
         );

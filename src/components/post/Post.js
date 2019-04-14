@@ -36,21 +36,22 @@ class Post extends Component {
 
     render() {
         return (
-                <div className="blog">
-                    <div className="blogHeader">
+                <div className="post">
+                    <div className="postHeader">
                         <img alt="Post image" id="headerImg" src={this.state.post.image}/>
                     </div>
-                    <div className="blogTitle">
-                        <p id="titleDescription">{this.state.post.titleShortDesc}</p>
-                        <p id="titleMain">{this.state.post.titleMain}</p>
+                    <div className="postTitle">
+                        <span className="postTitleDescription">{this.state.post.titleShortDesc}</span><br />
+                        <span className="postTitleMain">{this.state.post.titleMain}</span>
                     </div>
-                    <div className="blogContent">{this.state.post.content}
+                    <div className="postContent">{this.state.post.content}
                     </div>
-                    <div className="blogMore">
+                    <div className="postMore">
                         <Link to="/" id="backBtn">{this.state.post.back}</Link>
                     </div>
-                    <div className="blogFooter">
-                        <p id="blogContent">{this.state.post.author}<span id="date"></span>{this.state.post.date}</p>
+                    <div className="postFooter">
+                        <span className="postFooterContent">{this.state.post.author}</span>
+                        <span className="postDate">{this.state.post.date}</span>
                     </div>
                 </div>
         );

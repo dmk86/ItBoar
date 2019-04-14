@@ -15,6 +15,7 @@ class Main extends Component{
                     <Grid container direction="row" justify="center" alignItems="flex-start" item xs={12} spacing={32} >
                         <Grid item xs={6}>
                             <Article/>
+                            <Article/>
                         </Grid>
                         <Grid item xs={4}>
                             <ShortAbout/>
@@ -24,6 +25,7 @@ class Main extends Component{
                 <Hidden only={['md', 'lg', 'xl']}>
                     <Grid container direction="column" justify="center" alignItems="center" item xs={12}>
                         <Grid item xs={10}>
+                            <Article/>
                             <Article/>
                         </Grid>
                         <Grid item xs={10}>
